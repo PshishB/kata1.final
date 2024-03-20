@@ -180,3 +180,33 @@ p {
       max-width: 1440px;
   }
 } */
+@media screen and (min-width: 1440px) {
+  .burger.hidden {
+    order: 0;
+    position: relative;
+    box-shadow: none;
+    opacity: 1;
+    transform: translate(0);
+  }
+  .main {
+    order: 1;
+  }
+  .footer {
+    order: 2;
+    margin-left: 300px;
+  }
+  .burger {
+    order: 0;
+    height: 100vh;
+  }
+  .leftside__burger {
+    display: none;
+  }
+  body {
+    margin: 0 auto !important;
+    max-width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

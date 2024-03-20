@@ -16,7 +16,7 @@
 }
 .modal.hidden {
   opacity: 0;
-  transform: translateX(-4000px);
+  display: none;
 }
 .modal__title::before {
   content: '';
